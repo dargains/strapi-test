@@ -10,7 +10,7 @@
 <script>
 import ImageItem from './ImageItem';
 import Axios from 'axios';
-const apiUrl = process.env === 'production' ? 'https://strapi-test.azurewebsites.net/' : 'http://localhost:1337';
+const apiUrl = 'https://strapi-test.azurewebsites.net';
 export default {
   name: 'HelloWorld',
   components: {
