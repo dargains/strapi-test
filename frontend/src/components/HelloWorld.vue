@@ -10,7 +10,7 @@
 <script>
 import ImageItem from './ImageItem';
 import Axios from 'axios';
-const apiUrl = 'https://strapi-test.azurewebsites.net';
+const apiUrl = 'https://strapidargains.azurewebsites.net/';
 export default {
   name: 'HelloWorld',
   components: {
